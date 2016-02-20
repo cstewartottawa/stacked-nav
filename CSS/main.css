@@ -1,12 +1,17 @@
 html {
-	box-sizing: border-box;;
+	box-sizing: border-box;
+}
+
+body {
   background-color: #f2f2f2;
-  font-family: Dosis ,sans-serif;;
+  font-family: Dosis ,sans-serif;
   line-height: 1.5;
+	margin: 0;
 }
 .beetle-types {
   margin: 0;
   padding: 0;
+	width: 100%;
   list-style-type: none;
   text-align: center;
   background-color: #9a816d;
@@ -15,4 +20,18 @@ html {
 h1 {
   text-align:center;
   color: #5b2700;
+}
+.beetle-types li a {
+ color: #fff;
+ text-decoration: none;
+ font-weight: bold;
+ border: 1.5px solid #795437;
+ display: inline-block;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
